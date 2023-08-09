@@ -103,10 +103,7 @@ session_set_cookie_params(0);
     <body>
 
         <!--Container Fluid-->
-        
         <div class="container-fluid d-flex <?php echo $_SESSION['center'] ?> mob-column props">
-            <!--Formulaire-->
-
             <div class="formulaire <?php echo $_SESSION['mobile-visible'] ?>">
            
                 <!-- Formulaire -->
@@ -152,8 +149,6 @@ session_set_cookie_params(0);
                                 $_SESSION['center'] = "j-evenly";
                             }
                         }
-
-                        // ... autres vérifications d'erreurs ...
 
                         // Si aucune option n'est choisie
                         if (isset($_POST["button_generate"])){
@@ -251,10 +246,6 @@ session_set_cookie_params(0);
                 </div>
             </div>
         </div>
-      
-        <!-- appel Jquery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
         <script>
         $(document).ready(function() {
 
