@@ -1,0 +1,249 @@
+/* Media Q test */
+
+@media(max-width:319px) {
+    .generated-pwd {
+        top :25rem;
+        left: inherit;
+        position: relative;
+    }
+
+    .formulaire {
+        top: 2rem;
+        position: absolute;
+        border: solid 3px #ff0059;
+    }
+}
+
+/* Iphone 5 type 320  */
+@media (min-width : 320px) and (max-width : 374px) {
+
+    .formulaire {
+        width: 92%;
+        min-height: 27rem;
+        border: solid 3px #ff0059;
+    }
+
+    /* Style pour le mode mobile
+    lors de la supression de l'affichage des données je dois changer le margin-top pour l'affichage */
+    .mobile-visible {
+        margin-top: 15rem;
+    }
+
+    .j-center {
+        justify-content: inherit;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .mob-none {
+        display: none;
+    }
+
+    .deskno {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .generated-pwd {
+        min-height: 20rem;
+    }
+
+    .mob-column {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pos {
+        text-align: center;
+        font-size: .9rem;
+        position: absolute;
+        width: 17rem;
+        left: 27;
+        top: 29rem;
+    }
+
+    .form-label {
+    text-align: center;
+    }
+}
+
+/* Iphone 6 */
+@media (min-width : 375px) and (max-width : 413px) {
+
+    .formulaire {
+        width: 92%;
+        min-height: 27rem;
+        border: solid 3px #ff0059;
+    }
+
+    .generated-pwd {
+        min-height: 20rem;
+    }
+
+    /* Style pour le mode mobile
+    lors de la supression de l'affichage des données je dois changer le margin-top pour l'affichage */
+    .mobile-visible {
+        margin-top: 10rem;
+    }
+
+    .j-center {
+        justify-content: inherit;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .mob-none {
+        display: none;
+    }
+
+    .deskno {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .mob-column {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pos {
+        text-align: center;
+        font-size: .9rem;
+        position: absolute;
+        width: 17rem;
+        left: 27;
+        top: 29rem;
+    }
+
+    .form-label {
+    text-align: center;
+    }
+}
+
+/* Iphone 6/7/8 + */
+@media (min-width: 414px) and (max-width: 736px) and (orientation: portrait){
+
+    .formulaire {
+        width: auto;
+        min-height: 27rem;
+        border: solid 3px #ff0059;
+    }
+
+    .generated-pwd {
+        min-height: 20rem;
+    }
+
+    /* Style pour le mode mobile
+    lors de la supression de l'affichage des données je dois changer le margin-top pour l'affichage */
+    .mobile-visible {
+        margin-top: 7rem;
+    }
+
+    .j-center {
+        justify-content: inherit;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .mob-none {
+        display: none;
+    }
+
+    .deskno {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .mob-column {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pos {
+        text-align: center;
+        font-size: .9rem;
+        position: absolute;
+        width: 17rem;
+        left: 27;
+        top: 29rem;
+    }
+
+    .form-label {
+    text-align: center;
+    }
+}
+
+/* Iphone 6 LANDSCAPE */
+@media (min-width: 415px) and (max-width: 736px) and (max-height: 414px) and (orientation: landscape){
+    .allswitchs {
+        flex-direction: row;
+    }
+
+    .generated-pwd {
+        height: 300px;
+    }
+
+    .password-text {
+        font-size: 0.7rem;
+    }
+
+    .form-control, .formulaire {
+        border: solid 2px #ff0059;
+    }
+
+    .formulaire {
+        height: 98%;
+    }
+
+    h1 {
+        font-size: 0.8rem;
+    }
+}
+
+/* Iphone 6+++ LANDSCAPE */
+
+
+@media screen and (min-width: 1780px) and (max-width: 1900px) {
+
+    .generated-pwd {
+        position: relative;
+        left: -17rem;
+    }
+}
+
+@media screen and (min-width: 1901px) and (max-width: 2204px) {
+    .generated-pwd {
+        position: relative;
+        left: -17rem;
+    }
+}
+
+@media screen and (min-width: 2205px) and (max-width: 2500px) {
+    .generated-pwd {
+        position: relative;
+        left: -17rem;
+
+    }
+}
+
+@media screen and (min-width: 2501px) and (max-width: 3000px) {
+    .generated-pwd {
+        position: relative;
+        left: -17rem;
+    }
+}

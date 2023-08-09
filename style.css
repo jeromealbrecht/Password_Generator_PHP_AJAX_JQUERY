@@ -1,0 +1,151 @@
+/*#2b1155 persian violet*/
+/*#ff0059 folly*/
+/*#1a0a33 russian violet*/
+/*#321466 persian indigo*/
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+    margin-top:10%;
+    margin-bottom: 10%;
+    background-color:#2b1155;
+}
+
+
+body{
+    background-color: #321466;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+form.login-clean{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1{
+    color: white;
+    font-size: 150%;
+    margin-bottom: 5%;
+    text-decoration: underline solid #ff00;
+    text-align: center;
+}
+
+.password{
+    border-radius: 20px;
+    border: solid 3px #ed254e;
+    background-color: #321466;
+    color: white;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+.generated-pwd {
+    left: 62rem;
+    height: 433px;
+}
+
+label.form-label{
+    color: white;
+}
+
+.form-check-label{
+    color: white;
+}
+
+.form-check-input:checked{
+    background-color: #ff0059;
+    border-color: #ff0059;
+}
+
+.form-control{
+    border-radius: 20px;
+    border: solid 3px #ff0059;
+    background-color: #321466;
+    color: white;
+    min-width: 6rem;
+}
+
+
+.btn{
+    border-radius: 20px;
+    border : #ff0059 3px solid;
+    background-color: #321466;
+    color: white;
+    transition-property: none;
+    margin-top: 5%;
+}
+
+.generated {
+    left: 61rem;width: 5rem;
+    height : 433px;
+}
+
+.formulaire {
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 6px 7px 0px #1a0a33;
+    border-radius: 50px;
+    border: solid 4px #ff0059;
+    padding: 1.5rem;
+}
+
+.ml-i{
+    margin-left: 1.5rem;
+}
+
+.password-icon {
+    padding-right: 0.5rem;
+}
+
+.password-text {
+    padding-left: 0.5rem;
+}
+
+.pos {
+    margin-top: 3rem;
+    width: 20%;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.props {
+    height: 100vh;
+    align-items: center;
+}
+
+.error {
+    position: relative;
+    top: -0.5rem;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.disflex {
+    display: flex;
+}
+
+.deskno {
+    display: none;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-evenly {
+    justify-content: space-evenly;
+}
+
+.allswitchs {
+    flex-direction: column;
+}
